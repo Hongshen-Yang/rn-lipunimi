@@ -12,7 +12,7 @@ const langs = {
 
 const LangContext = React.createContext(langs.english);
 
-const Search = () => {
+const Search = ({navigation}) => {
 
     const [keyword, setKeyword] = useState('');
 
@@ -29,7 +29,7 @@ const Search = () => {
                         onChangeText={setKeyword}
                     />
                 </View>
-                <WordList keyword={keyword}/>
+                <WordList keyword={keyword} navigation={navigation}/>
             </SafeAreaView>
         </LangContext.Provider>
     );

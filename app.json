@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "dict-tokipona",
-    "slug": "dict-tokipona",
+    "name": "Toki Pona Dictionary",
+    "slug": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/image/icon.png",
@@ -28,6 +28,7 @@
     "web": {
       "favicon": "./assets/image/favicon.png"
     },
-    "description": ""
+    "description": "React Native Dictionary for Toki Pona",
+    "githubUrl": "https://github.com/YangHongshen/dict-tokipona"
   }
 }
