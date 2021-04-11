@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, Button, View, SafeAreaView, TextInput } from 'react-native';
+import { StyleSheet, Text, Button, View, SafeAreaView, TextInput, KeyboardAvoidingView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Color } from '../../styles/color.js'
 import LangBtn from './LangBtn.js'
@@ -12,7 +12,7 @@ const langs = {
 
 const LangContext = React.createContext(langs.english);
 
-const Search = ({navigation}) => {
+const Search = ({ navigation }) => {
 
     const [keyword, setKeyword] = useState('');
 
@@ -29,9 +29,9 @@ const Search = ({navigation}) => {
                         onChangeText={setKeyword}
                     />
                 </View>
-                <WordList keyword={keyword} navigation={navigation}/>
+                <WordList keyword={keyword} navigation={navigation} />
             </SafeAreaView>
-        </LangContext.Provider>
+        </LangContext.Provider >
     );
 }
 

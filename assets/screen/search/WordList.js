@@ -1,9 +1,11 @@
+//import { forModalPresentationIOS } from '@react-navigation/stack/lib/typescript/src/TransitionConfigs/CardStyleInterpolators';
 import React, { useState, useContext, useEffect } from 'react';
 import { StyleSheet, FlatList, Pressable, View, Text } from 'react-native';
 import 'react-native-gesture-handler';
 import { Color } from '../../styles/color.js'
+import { Font } from '../../styles/font.js'
 import LangContext from '../../utilities/context.js';
-import db from '../../db.json'
+import db from '../../utilities/db.json'
 
 const WordList = ({ keyword, navigation }) => {
 
@@ -43,8 +45,8 @@ const WordList = ({ keyword, navigation }) => {
                                 });
                             }}
                         >
-                            <Text style={{ fontSize: 20, fontFamily: 'Hoefler Text' }}>{item.words}</Text>
-                            <Text style={{ fontSize: 15, fontFamily: 'Hoefler Text', color: Color.blue }}>{item.translation}</Text>
+                            <Text style={{ fontSize: 22, fontFamily: Font.Secondary }}>{item.words}</Text>
+                            <Text style={{ fontSize: 16, fontFamily: Font.Secondary, color: Color.blue }}>{item.translation}</Text>
                         </Pressable>
                     )}
                     keyExtractor={item => item.words.toString()}
@@ -67,7 +69,7 @@ const styles = StyleSheet.create({
     WordNotFound: {
         margin: 20,
         fontSize: 20, 
-        fontFamily: 'Hoefler Text', 
+        fontFamily: Font.Main, 
     },
     WordsPressable: {
         flex: 1,

@@ -1,0 +1,52 @@
+{
+    "speechTypes": [
+        {
+            "abbr": "n",
+            "speechType": " head noun"
+        },
+        {
+            "abbr": "mod",
+            "speechType": " modifier (adjective or adverb)"
+        },
+        {
+            "abbr": "sep",
+            "speechType": " separator"
+        },
+        {
+            "abbr": "vt",
+            "speechType": " verb, transitive (normally used with e)"
+        },
+        {
+            "abbr": "vi",
+            "speechType": " verb, intransitive"
+        },
+        {
+            "abbr": "interj",
+            "speechType": " interjection"
+        },
+        {
+            "abbr": "prep",
+            "speechType": " quasi-preposition"
+        },
+        {
+            "abbr": "conj",
+            "speechType": " conjunction"
+        },
+        {
+            "abbr": "kama",
+            "speechType": " compound verb preceded by kama"
+        },
+        {
+            "abbr": "cont",
+            "speechType": " context word used before la"
+        },
+        {
+            "abbr": "oth",
+            "speechType": " special, other word"
+        },
+        {
+            "abbr": "*",
+            "speechType": " unofficial, not in the official dictionary or heavily differs from it"
+        }
+    ]
+}
