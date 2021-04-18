@@ -1,34 +1,30 @@
 import React from 'react';
 import { StyleSheet, Text, Image, SafeAreaView, View, Pressable } from 'react-native';
 import 'react-native-gesture-handler';
-import { Color } from '../../styles/color.js'
-import { Font } from '../../styles/font.js'
+import { Color } from '../../styles/color.js';
+import { Font } from '../../styles/font.js';
+import Logo from '../../image/icon.png';
 
-const Entry = ({navigation}) => {
+const Entry = ({ navigation }) => {
 
     setTimeout(() => { navigation.navigate('Search') }, 2000);
 
     return (
         <SafeAreaView style={styles.container}>
-                <Pressable
-                    style={styles.container}
-                    onPress={() => navigation.navigate('Search')}
-                >
                 <Text style={styles.logoText}>lipu nimi pi toki pona</Text>
-                <Image source={require('../../image/logo-tokiPona.png')} style={styles.logo} />
+                <Image source={Logo} style={styles.logo} />
                 <View style={styles.credit}>
                     <Text style={styles.creditText}>App Author - HS Yang</Text>
                     <Text style={styles.creditText}>Lexicographer - jProgr</Text>
-                    {/* <Text style={styles.creditText}>Colanger - Sonja Lang</Text> */}
+                    <Text style={styles.creditText}>Colanger - Sonja Lang</Text>
                 </View>
-                </Pressable>
         </SafeAreaView >
     );
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex:1,
+        flex: 1,
         backgroundColor: Color.yellow,
         alignContent: 'center',
         alignItems: 'center',
@@ -49,7 +45,7 @@ const styles = StyleSheet.create({
         borderColor: Color.blue,
     },
     logo: {
-        width: '50%',
+        width: '40%',
         height: '40%',
         resizeMode: 'contain',
     },

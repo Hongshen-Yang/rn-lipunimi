@@ -41,6 +41,7 @@ const Detail = ({ route, navigation }) => {
             </View>
             <View style={styles.translation}>
                 <View style={{height:20}}></View>
+                <Text> {Platform.OS} </Text>
                 <FlatList
                     data={res}
                     scrollEnabled={false}

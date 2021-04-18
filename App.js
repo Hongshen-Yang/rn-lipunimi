@@ -23,7 +23,7 @@ const App = () => {
             headerShown: false,
             gestureEnabled: false,
         }}>
-          <Stack.Screen name="Entry" component={Entry} />
+          {/* <Stack.Screen name="Entry" component={Entry} /> */}
           <Stack.Screen name="Search" component={Search} />
           <Stack.Screen name="Detail" component={Detail} />
         </Stack.Navigator>
