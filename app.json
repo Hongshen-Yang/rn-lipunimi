@@ -4,7 +4,7 @@
     "slug": "lipu-nimi-pi-toki-pona",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/image/icon.png",
+    "icon": "./assets/image/appIcon.png",
     "splash": {
       "image": "./assets/image/splash.png",
       "resizeMode": "contain",
@@ -22,7 +22,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/image/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#ffffff"
       },
       "package": "com.yhhsuf.lipunimipitokipona"
     },

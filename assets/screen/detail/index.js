@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, FlatList, Pressable, SafeAreaView, View } from 'react-native';
+import { StatusBar, StyleSheet, Text, FlatList, Pressable, SafeAreaView, View } from 'react-native';
 import 'react-native-gesture-handler';
 import { Color } from '../../styles/color'
 import { Font } from '../../styles/font.js'
@@ -41,7 +41,6 @@ const Detail = ({ route, navigation }) => {
             </View>
             <View style={styles.translation}>
                 <View style={{height:20}}></View>
-                <Text> {Platform.OS} </Text>
                 <FlatList
                     data={res}
                     scrollEnabled={false}
@@ -79,6 +78,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: Color.yellow,
+        paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
     },
     header: {
         flex: 1,

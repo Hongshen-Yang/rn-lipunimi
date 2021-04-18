@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, Button, View, SafeAreaView, TextInput, KeyboardAvoidingView } from 'react-native';
+import { StatusBar, StyleSheet, Text, Button, View, SafeAreaView, TextInput, KeyboardAvoidingView } from 'react-native';
 import 'react-native-gesture-handler';
 import { Color } from '../../styles/color.js'
 import LangBtn from './LangBtn.js'
@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: Color.yellow,
+        paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
     },
     searchBoxContainer: {
         flex: 1,
