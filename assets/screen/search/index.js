@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StatusBar, StyleSheet, Text, Button, View, SafeAreaView, TextInput, KeyboardAvoidingView } from 'react-native';
+import { StatusBar, StyleSheet, View, SafeAreaView, TextInput } from 'react-native';
 import 'react-native-gesture-handler';
 import { Color } from '../../styles/color.js'
 import LangBtn from './LangBtn.js'
