@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { StyleSheet, Text, Pressable, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, Pressable } from 'react-native';
 import 'react-native-gesture-handler';
 import { Color } from '../../styles/color.js'
 import LangContext from '../../utilities/context'
