@@ -24,7 +24,8 @@
         "foregroundImage": "./assets/image/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.yhhsuf.lipunimipitokipona"
+      "package": "com.yhhsuf.lipunimipitokipona",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/image/favicon.png"
