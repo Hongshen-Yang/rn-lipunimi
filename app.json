@@ -22,7 +22,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/image/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "permissions": []
       },
       "package": "com.yhhsuf.lipunimipitokipona",
       "versionCode": 2
