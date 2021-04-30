@@ -22,11 +22,11 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/image/adaptive-icon.png",
-        "backgroundColor": "#ffffff",
-        "permissions": []
+        "backgroundColor": "#ffffff"
       },
       "package": "com.yhhsuf.lipunimipitokipona",
-      "versionCode": 2
+      "versionCode": 3,
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/image/favicon.png"

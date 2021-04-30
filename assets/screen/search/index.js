@@ -32,7 +32,7 @@ const Search = ({ navigation }) => {
                     />
                 </View>
                 <KeyboardAvoidingView
-                    behavior={Platform.OS === "ios" ? "padding" : "height"}
+                    behavior={Platform.OS === "ios" ? "positions" : "height"}
                     style={{flex:10}}
                 >
                     <WordList keyword={keyword} navigation={navigation} />
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     },
     searchBox: {
         flex: 1,
-        height: 50,
+        height: 40,
         backgroundColor: Color.shallowYellow,
         marginVertical: 10,
         marginHorizontal: 20,
