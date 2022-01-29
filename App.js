@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, {useState} from 'react';
-import Entry from './assets/screen/entry';
+// import Entry from './assets/screen/entry';
 import Search from './assets/screen/search';
 import Detail from './assets/screen/detail';
 import 'react-native-gesture-handler';

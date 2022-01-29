@@ -1,5 +1,5 @@
 import React from 'react';
-import { StatusBar, StyleSheet, Text, FlatList, Pressable, SafeAreaView, View } from 'react-native';
+import { Platform, StatusBar, StyleSheet, Text, FlatList, Pressable, SafeAreaView, View } from 'react-native';
 import 'react-native-gesture-handler';
 import { Color } from '../../styles/color'
 import { Font } from '../../styles/font.js'
@@ -140,5 +140,5 @@ const styles = StyleSheet.create({
         fontFamily: Font.Secondary,
     },
 });
-require
+
 export default Detail

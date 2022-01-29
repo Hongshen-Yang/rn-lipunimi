@@ -2,7 +2,7 @@
   "expo": {
     "name": "lipu nimi",
     "slug": "lipu-nimi-pi-toki-pona",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/image/appIcon.png",
     "splash": {

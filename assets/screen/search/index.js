@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StatusBar, KeyboardAvoidingView, StyleSheet, View, SafeAreaView, TextInput } from 'react-native';
+import { Platform, StatusBar, KeyboardAvoidingView, StyleSheet, View, SafeAreaView, TextInput } from 'react-native';
 import 'react-native-gesture-handler';
 import { Color } from '../../styles/color.js'
 import LangBtn from './LangBtn.js'
@@ -19,9 +19,7 @@ const Search = ({ navigation }) => {
     return (
         <LangContext.Provider value={langs.english}>
             <SafeAreaView style={styles.container}>
-                <View
-                    style={styles.searchBoxContainer}
-                >
+                <View style={styles.searchBoxContainer}>
                     {/* < LangBtn /> */}
                     < TextInput
                         style={styles.searchBox}
@@ -49,8 +47,8 @@ const styles = StyleSheet.create({
         paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
     },
     searchBoxContainer: {
-        height: 50,
-        flex: 1,
+        height: 60,
+        flexGrow: 0,
         flexDirection: 'row',
         //alignItems: 'stretch',
     },
