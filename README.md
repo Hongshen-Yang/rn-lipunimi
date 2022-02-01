@@ -10,4 +10,5 @@ iOS version of app will be coming if actually someone use it.
 
 Just in case you have no idea what is toki pona, here is the [wikipedia](https://en.wikipedia.org/wiki/Toki_Pona)
 
-[Google Play](https://play.google.com/store/apps/details?id=com.yhhsuf.lipunimipitokipona&hl=en_NZ&gl=US)
+[=> Google Play](https://play.google.com/store/apps/details?id=com.yhhsuf.lipunimipitokipona&hl=en_NZ&gl=US)
+[=> App Store](https://apps.apple.com/app/lipu-nimi/id1607786473)
