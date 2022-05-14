@@ -15,5 +15,7 @@ Just in case you have no idea what is toki pona, here is the [wikipedia](https:/
 ---
 
 If you want to donate :)
+
 Paypal: acc+paypalnz@hongshen.me
+
 BTC: bc1qcylae0cz0rswkspk5akh7amuxag45vrewssxlx
