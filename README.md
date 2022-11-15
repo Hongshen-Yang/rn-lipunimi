@@ -12,10 +12,3 @@ Just in case you have no idea what is toki pona, here is the [wikipedia](https:/
 
 [=> App Store](https://apps.apple.com/app/lipu-nimi/id1607786473)
 
----
-
-If you want to donate :)
-
-Paypal: acc+paypalnz@hongshen.me
-
-BTC: bc1qcylae0cz0rswkspk5akh7amuxag45vrewssxlx
