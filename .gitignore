@@ -9,6 +9,8 @@ npm-debug.*
 *.orig.*
 web-build/
 Keystore-credentials.md
+# Google Play Submission Key for EAS
+pc-api-6081980575756542033-401-ea88dd1cf67d.json
 
 # macOS
 .DS_Store

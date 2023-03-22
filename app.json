@@ -2,7 +2,7 @@
   "expo": {
     "name": "lipu nimi",
     "slug": "lipu-nimi-pi-toki-pona",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/image/appIcon.png",
     "splash": {
@@ -11,13 +11,15 @@
       "backgroundColor": "#ffff7c"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/ac73dc45-6e56-4173-b56c-a0b10ca5ca1c"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yhhsuf.lipunimipitokipona"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,13 +27,21 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.yhhsuf.lipunimipitokipona",
-      "versionCode": 3,
+      "versionCode": 4,
       "permissions": []
     },
     "web": {
       "favicon": "./assets/image/favicon.png"
     },
     "description": "Dictionary for Toki Pona",
-    "githubUrl": "https://github.com/YangHongshen/dict-tokipona"
+    "githubUrl": "https://github.com/YangHongshen/dict-tokipona",
+    "extra": {
+      "eas": {
+        "projectId": "ac73dc45-6e56-4173-b56c-a0b10ca5ca1c"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }

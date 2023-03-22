@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pc-api-6081980575756542033-401",
+  "private_key_id": "ea88dd1cf67df24c90a371901c67290289eb6be7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5Nl3rfEIfShny\nU1FItqwYVKmqJCQJkwEjlernKNAzlbudWr37p0BpntiI7i6NvLBVmaaJ4SS5ictS\nvPbAjXsjJcqzYf1ZsWnoQvf0dNIwdhGLfPAJ8FsaLXEAS2D8JsZ0fKQ4Al0hsXkg\nMICqVmapbwBVR+2lE7y9obQX7cE1TookzZZl942wAAg5GpNOeccHnD1Va4INEnxp\nG9niPSn7cDe/hsjXn9B9WR4dbBk15vo8lXWHZlzurFeFD7so0CvgAmylt+XSA1Lu\nOKpVAFamsN3XdMbDwWw/Fq8vsDu90PW+C5n0JDWli3fDjs4zTPeRDyUUjaD5jCyh\nAVxLnf7PAgMBAAECggEANwOFmT1y/I1LsLV71u/fpWh8bvvGMovWUkYlHJ18Xl4y\n+LXr6ZSP5u+WXPH2pQYvkHWPyLO172CVItHbL2227kU69NZ95Qb0MNe3hAaxKlDf\nvEGToTgiL1/hCVfaintQBmjBdJuLI0dudZfCmBYK73f3rt0rIxX+QYuHDXaDJbxZ\njKAMOARG7LMbdMwcDJrf3ExCpwU0yYWzxuDiUXGTWzA2GYVLNt9wrsKrCkdHZAeP\ncoc5WnfDVg+cVYoe3GEMRQ/Ka1d8/ugtZgA0UX7BlsAl75ReEOXfgRCdsbz24FKu\n5MQSL1MZcKSeYoVdXmPcV7+4sWesGXsR/3pN7l9TsQKBgQDiBCIl0LNj/cFvKx1Z\ndE3mKfzmHFofLNrs8ukkfunWMxkRBL8UZ+7ND0fImwji3EOlNeSjTTVWanUFP7Wb\nOnmweUJNC3pcrteaVztVmm6M+0ZVwaZOLp1tebO5+ShxCxYwQy1ReVxDCXAY0Cp7\nx1h5EF9HW9q3DC77GPRFYSQWEQKBgQDRyHj7crS9tXPxKOAG0wZiyxdjb7K8Y+wi\n+s8A0RBQPdXZTszgZ18dtzvwS3+dpUaFS4Nd9WXtV3Hlep0GLocvHmTdHe1WcvKk\nf+bpRw74F4GJVN4ADVHpmVzYjYH6RiLWX3FZYTf+3qYwuv3Mvz/K5OvoJf2IBioJ\ng1AYEiRm3wKBgQCxQViem6z1MKAx1XhxHZuydR+YQIgVhxIzXtal/rrZeL2h8T0C\nffh07hT4KU6wzNpoiXnE8Npx6Y/ZC/wbv6KMWq06y1OtuJnyu5MXMcSd4LtqqjMJ\ngdmJcDcaFWQ4M9+0/hpemXVYReCaNTf8V3z1hXeT+V/wyydVWl7IwsSQYQKBgCtl\nUgmJ5/Oadpp7fyRKQPbs1jC+qXWpIe72fR3JIZvHvtYOI/mDyLxH7EFADO0ahGUM\ngudL3ULkpO34mETwGQzZN7o595+7dZAr2SOGjIUrr6MuCCJwnvI4xGkTlMCmA4ze\n/36iyseRXUWVWO0i3tpk0pwaR8D8rXN8U3Q3RIp3AoGBAMPJr07mtkyXZsOcoDcJ\n4r3wkgZzcr+whIaAnWN5OJ1iZde1l7w2e5dvn0x1SeLc4KF2CB4Gq7QL7NUeAAnt\n2gNtoWE0xZJ2xNmRDk1zxdxGG0ILfgwB0vOuyxDdr08YMYVvo2LJB/gcZXBDdWtJ\n1GirbfVyjOHiAo/x/mlRwpbH\n-----END PRIVATE KEY-----\n",
+  "client_email": "eas-lipunimi-update@pc-api-6081980575756542033-401.iam.gserviceaccount.com",
+  "client_id": "101821023780607908948",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/eas-lipunimi-update%40pc-api-6081980575756542033-401.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
