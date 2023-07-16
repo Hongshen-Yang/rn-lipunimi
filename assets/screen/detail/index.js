@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
         textDecorationLine: 'underline',
     },
     translation: {
-        flex: 10,
+        flex: 6,
         backgroundColor: Color.shallowYellow,
     },
     entriesList: {

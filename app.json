@@ -2,7 +2,7 @@
   "expo": {
     "name": "lipu nimi",
     "slug": "lipu-nimi-pi-toki-pona",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "orientation": "portrait",
     "icon": "./assets/image/appIcon.png",
     "splash": {
@@ -27,7 +27,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.yhhsuf.lipunimipitokipona",
-      "versionCode": 7,
+      "versionCode": 8,
       "permissions": []
     },
     "web": {
